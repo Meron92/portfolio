@@ -34,18 +34,6 @@ function Contact() {
               Send a message
             </a>
           </article>
-
-          <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>Phone</h4>
-            <h5>+46-73 916 48 76</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=+46739164876"
-              target="_blank"
-            >
-              Send a message
-            </a>
-          </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your full name" />
