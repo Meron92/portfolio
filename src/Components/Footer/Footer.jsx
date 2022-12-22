@@ -20,9 +20,6 @@ function Footer() {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved.</small>
-      </div>
     </footer>
   );
 }
