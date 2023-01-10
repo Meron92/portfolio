@@ -9,14 +9,15 @@ function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDeafault();
+    e.preventDefault();
 
     emailjs.sendForm(
-      "service_460ff2t",
-      "template_cobxjg8",
+      "service_rui8q7i",
+      "template_gelb1dq",
       form.current,
-      "GUoJpzvAv_fhV4kJV"
+      "rg_duj2PReAIdbe6L"
     );
+    e.target.reset();
   };
 
   return (
@@ -29,8 +30,8 @@ function Contact() {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>Meron_Mekonnen@hotmail.com</h5>
-            <a href="mailto:Meron_Mekonnen@hotmail.com" target="_blank">
+            <h5>meronmekonnen1992@gmail.com</h5>
+            <a href="mailto:meronmekonnen1992@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
